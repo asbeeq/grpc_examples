@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./example";
+
+package example;
+
+import "common.proto";
+
+message User {
+  string username = 1;
+  string email = 2;
+  Address address = 3;
+}

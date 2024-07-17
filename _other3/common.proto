@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "./example";
+
+package example;
+
+message Address {
+  string street = 1;
+  string city = 2;
+}

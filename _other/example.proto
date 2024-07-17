@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./example";
+
+package example;
+
+message Greeting {
+  string message = 1;
+}
+
+// protoc --go_out=. example.proto
